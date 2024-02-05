@@ -67,7 +67,7 @@ app.post("/signin",async(req,res)=>{
   
   app.use('/api', cartRoutes);
   
-  app.listen(8000, () => {
+  app.listen(PORT, () => {
     try {
       connection;
       console.log("connected to server");
